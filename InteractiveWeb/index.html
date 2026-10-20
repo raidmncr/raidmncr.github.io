@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raid Menacer | Field Service / Engineering Technician</title>
+<meta name="description" content="Engineering technician in Austin, TX building, testing and troubleshooting precision hardware for optical systems and AI computing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <strong>Raid Menacer</strong>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="wrap hero-in">
+    <div>
+      <h1>Raid<br>Menacer</h1>
+      <div class="role">Field Service / Engineering Technician</div>
+      <p>I build, test and troubleshoot precision hardware for optical systems and AI computing, set up servers and cloud services, and I’m studying toward server, cloud, security and Linux certifications.</p>
+      <div class="btns">
+        <a class="btn fill" href="#projects">See my work</a>
+        <a class="btn" href="mailto:raidmenacer1usa@gmail.com">Email me</a>
+      </div>
+    </div>
+
+    <!-- Certification status readout. Edit the rows as your certifications change. -->
+    <div class="readout" role="img" aria-label="Certification status: CompTIA A+ and Network+ passed; Server+, Cloud+, Security+ and Linux+ in progress">
+      <div class="head">raid@austin:~$ ./check_certs</div>
+      <div class="row"><span>CompTIA A+</span><span class="pass">[ PASS ]</span></div>
+      <div class="row"><span>CompTIA Network+</span><span class="pass">[ PASS ]</span></div>
+      <div class="row"><span>CompTIA Server+</span><span class="pending">[ IN PROGRESS ]</span></div>
+      <div class="row"><span>CompTIA Cloud+</span><span class="pending">[ IN PROGRESS ]</span></div>
+      <div class="row"><span>CompTIA Security+</span><span class="pending">[ IN PROGRESS ]</span></div>
+      <div class="row"><span>CompTIA Linux+</span><span class="pending">[ IN PROGRESS ]</span></div>
+      <div class="foot">2 passed, 4 in progress</div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="about">
+  <div class="wrap">
+    <h2>About</h2>
+    <div class="about">
+      <div>
+        <p>I’m an engineering technician in Austin, Texas with hands-on experience building, testing and troubleshooting precision manufacturing equipment for optical systems. My strengths are hardware assembly, system calibration, diagnostics and root cause analysis.</p>
+        <p>I also have experience in networking, setting up servers and troubleshooting. I’ve configured servers and routers for system testing, built Proxmox, Windows and Linux servers for a class capstone, and deployed websites and services on AWS. I hold CompTIA A+ and Network+.</p>
+        <p>I work well in fast-paced, process-driven environments and have collaborated with engineers on New Product Introduction (NPI) builds. Outside of work I repair electronics, run a home automation setup, and write code in Python, C++, HTML, CSS and JavaScript.</p>
+      </div>
+      <ul class="facts">
+        <li><b>Currently</b><span>Engineering Technician (NPI) at Applied Materials</span></li>
+        <li><b>Education</b><span>A.S. Computer Science, Austin Community College, 3.95 GPA</span></li>
+        <li><b>Languages</b><span>English, French and Arabic (all fluent)</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>AWS cloud capstone</h3>
+        <p class="where">Cloud class, team project</p>
+        <p>Worked with a team of four roles to build a complete cloud environment on AWS, taking the Application Delivery (DevOps) role. We set up a VPC with a public subnet, published a website from a private S3 bucket through CloudFront over HTTPS, and launched an EC2 instance with SSH limited to one IP. We also built a Lambda and DynamoDB visitor counter behind API Gateway, gave the team access through IAM groups with MFA, and added CloudWatch alarms, CloudTrail auditing and cost monitoring.</p>
+        <ul class="tags"><li>AWS</li><li>VPC</li><li>S3 + CloudFront</li><li>EC2</li><li>Lambda</li><li>DynamoDB</li><li>IAM + MFA</li><li>CloudWatch</li><li>CloudTrail</li></ul>
+      </article>
+      <article class="card">
+        <h3>Proxmox server capstone</h3>
+        <p class="where">Server class, team project</p>
+        <p>Built and configured a Proxmox server, then created a Windows Server and a Linux server on it to host our team’s website and the services around it.</p>
+        <ul class="tags"><li>Proxmox</li><li>Virtualization</li><li>Windows Server</li><li>Linux</li><li>Web hosting</li></ul>
+      </article>
+      <article class="card">
+        <h3>Home Assistant</h3>
+        <p class="where">Personal project</p>
+        <p>Set up Home Assistant to run and automate smart home devices from one dashboard.</p>
+        <ul class="tags"><li>Home automation</li><li>Networking</li><li>Self-hosting</li></ul>
+      </article>
+      <article class="card">
+        <h3>Meta system builds</h3>
+        <p class="where">Applied Materials, Photonics Platforms Business offsite</p>
+        <p>Built systems for Meta projects: installed components, routed cables, and ran diagnostic and functional tests to confirm each system worked.</p>
+        <ul class="tags"><li>NPI</li><li>Assembly</li><li>Cable routing</li><li>ESD safety</li></ul>
+      </article>
+      <article class="card">
+        <h3>OAM accelerator board validation</h3>
+        <p class="where">Flex, AMD department</p>
+        <p>Tested and validated accelerator boards used for high-performance computing and AI workloads, and reported faulty components to engineering teams.</p>
+        <ul class="tags"><li>GPU testing</li><li>Board inspection</li><li>Defect reporting</li></ul>
+      </article>
+      <article class="card">
+        <h3>Electronics repair and network support</h3>
+        <p class="where">Self-employed, since 2020</p>
+        <p>Repaired smartphones, TVs, laptops and home electronics, and fixed Wi-Fi and network connectivity problems by tracing them to the root cause.</p>
+        <ul class="tags"><li>Diagnostics</li><li>Networking</li><li>Root cause analysis</li></ul>
+      </article>
+      <!-- To add a code project, copy one <article class="card"> block above and fill in:
+           title, where (e.g. "Personal project"), a short description, tags, and a link to your GitHub repo. -->
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <h3>Engineering Technician, New Product Introduction</h3>
+        <p class="meta">Applied Materials · Austin, TX · April 2026 to present</p>
+        <ul>
+          <li>Configure servers and routers for system testing; verify hardware setup and network connectivity.</li>
+          <li>Troubleshoot server, network, hardware and software issues during testing and system setup.</li>
+          <li>Build systems for Meta projects at the Photonics Platforms Business (PPB) offsite; install components and route cables.</li>
+          <li>Perform diagnostic and functional tests to verify system operation and identify faults.</li>
+          <li>Work with engineers on system builds and corrective actions while following ESD and safety procedures.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Hardware Tester / Technician Trainee</h3>
+        <p class="meta">Flex, AMD department · Austin, TX · March 2026 to April 2026</p>
+        <ul>
+          <li>Tested and validated OAM accelerator boards used for high-performance computing and AI workloads.</li>
+          <li>Ran diagnostic and functional tests to verify GPU/accelerator performance and hardware stability.</li>
+          <li>Identified faulty components and reported defects to engineering teams.</li>
+          <li>Assisted technician engineers with hardware troubleshooting, board inspection and validation procedures.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Customer Service Representative</h3>
+        <p class="meta">H-E-B · Austin, TX · July 2023 to March 2026</p>
+        <ul>
+          <li>Managed high-volume transactions in a fast-paced, shift-based environment.</li>
+          <li>Worked with team members to keep operations running smoothly.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Administrative Assistant</h3>
+        <p class="meta">French School of Austin · Austin, TX · August 2024 to October 2024</p>
+        <ul>
+          <li>Supported front-desk operations, call handling and visitor coordination.</li>
+          <li>Maintained digital records, databases and office systems accurately.</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Electronics Repair and Technical Support</h3>
+        <p class="meta">Self-employed · Austin, TX · 2020 to present</p>
+        <ul>
+          <li>Repaired and troubleshot smartphones, TVs, laptops and home electronics.</li>
+          <li>Diagnosed and resolved Wi-Fi and network connectivity issues.</li>
+          <li>Ran systematic inspections to find the root causes of hardware and software failures.</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills and education</h2>
+    <div class="cols">
+      <div>
+        <h3>Technical skills</h3>
+        <ul>
+          <li>Equipment assembly and system integration</li>
+          <li>System calibration and operational verification</li>
+          <li>Mechanical and electrical troubleshooting</li>
+          <li>Root cause analysis and failure diagnosis</li>
+          <li>Optical system and precision equipment handling</li>
+          <li>Cable routing, sensors and hardware connections</li>
+          <li>Test execution and hardware validation</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tools and programming</h3>
+        <ul>
+          <li>Multimeter, hand tools, diagnostic software</li>
+          <li>Windows 10/11, Microsoft Excel</li>
+          <li>Python</li>
+          <li>C++</li>
+          <li>HTML, CSS, JavaScript</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Cloud and infrastructure</h3>
+        <ul>
+          <li>AWS: VPC, S3, CloudFront, EC2, Lambda, DynamoDB, IAM, CloudWatch, CloudTrail</li>
+          <li>Proxmox virtualization</li>
+          <li>Windows Server and Linux administration</li>
+          <li>Home Assistant</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Working style</h3>
+        <ul>
+          <li>Hardware troubleshooting</li>
+          <li>Documentation and reporting</li>
+          <li>Teamwork in fast-paced environments</li>
+        </ul>
+      </div>
+    </div>
+    <div class="edu">
+      <h3>Associate of Science, Computer Science</h3>
+      <p class="meta">Austin Community College · 2023 to 2025 · 3.95 GPA</p>
+      <p>Coursework: Programming Fundamentals I to III, Calculus I and II, Engineering Physics I and II, Computer Organization and Machine Language.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <p>Based in Austin, TX. Open to field service and engineering technician roles.<br>&copy; <span id="year">2026</span> Raid Menacer</p>
+    <div class="links">
+      <a href="mailto:raidmenacer1usa@gmail.com">raidmenacer1usa@gmail.com</a>
+      <a href="https://github.com/raidmncr" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/raid-menacer-aa8678332" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
